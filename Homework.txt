@@ -1,0 +1,38 @@
+What is the difference between var and let?
+Let is declared as immutable constant that cannot change where as var declared as mutable value that can change.
+
+What is an optional?
+Optional is variable or a constant that can or cannot be nil.
+
+What is optional chaining vs optional binding?
+Optional chaining is used for querying ,calling properties, methods and subscripts that might currently be nil
+Optional binding stores the value that you binding in a variable
+
+What are the different ways to unwrap an optional? How do they work? Are they safe?
+1)Forced unwrapping - unsafe 
+2)implicitly unwrapped variable declaration-unsafe
+3)optional binding - safe
+4)Optional chaining-safe
+5)Nil coalescing operator-safe
+
+What is a closure?
+Closure is a function that can be created without a function name.
+
+What is the difference between a class and a struct?
+Struct is a value type and is stored on the stack but class is a reference type and is stored on heap
+
+What is the syntax '??' do?
+'??' is called nil coalescing operator and is used to return first nil value of the two swift variables
+
+What is a tuple?
+Tuple is a group of different values and tuple can be of different datatypes.
+
+What is Any vs AnyObject?
+AnyObject is for reference type and represents instance of only any class type
+Any is for both reference and value type and it represents any type including function type
+
+What is a protocol?
+A protocol is a blueprint of methods, properties and other requirements.
+
+What is Delegation
+Delegation is a interface that is used control or modify another object.
